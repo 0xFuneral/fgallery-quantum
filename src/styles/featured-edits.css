@@ -1,0 +1,75 @@
+.edit-cards {
+  width: 100vw;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+.edit-cards p {
+  color: black;
+}
+
+.edit-cards .card {
+  width: 250px;
+  height: 420px;
+  margin: 30px;
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.349);
+}
+.edit-cards .card .card-title {
+  margin-top: -50px;
+}
+.card-title p {
+  margin-top: 0px;
+  color: lightgrey;
+}
+.edit-cards .card .card-body {
+  height: 40px;
+}
+.edit-cards h1 {
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+.edit-cards button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  font-size: large;
+}
+.edit-cards button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  opacity: 0.8;
+}
+.card .card-art img {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  height: 250px;
+  width: 250px;
+  position: relative;
+}
+
+.card .card-art:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 1000px) {
+  .edit-cards {
+    display: grid;
+    
+  }
+}

@@ -1,0 +1,72 @@
+.web3-container {
+  margin: 0px auto;
+  background-image: linear-gradient( rgb(8, 8, 8),rgb(0, 0, 0));
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(14, 14, 14);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: max-content;
+  flex-flow: row wrap;
+}
+
+.web3-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  width: 1200px;
+  justify-content: center;
+}
+.web3-card {
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  cursor: default;
+  height: 250px;
+}
+.web3-card h1 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  margin-top: 35px;
+}
+.web3-card p {
+  color: white;
+}
+.web3-card .card-link p {
+  color: rgb(0, 195, 255);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.web3-card .card-link p:hover {
+  color: rgb(124, 224, 255);;
+}
+.card-info {
+  height: 200px;
+}
+.card-link {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .web3-content {
+    flex-direction: column;
+  }
+  .web3-card {
+    width: 60%;
+ 
+  }
+  .card-info {
+    height: 100%;
+  }
+}

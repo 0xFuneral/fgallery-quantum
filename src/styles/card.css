@@ -1,0 +1,17 @@
+.card {
+  height: 250px;
+  width: 750px;
+  min-width: 250px;
+  border-radius: 20px;
+  background-color: #161616;
+  margin: 10px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-img {
+  height: 80%;
+  width: 80%;
+}

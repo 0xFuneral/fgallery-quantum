@@ -1,0 +1,94 @@
+.artist-card {
+  height: 250px;
+  width: 1000px;
+  max-width: 900px;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  background-color: black;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.349);
+}
+.artist-card img {
+  height: 250px;
+  border-radius: 5px 0px 0px 5px;
+}
+.artist-info {
+  padding: 25px;
+  width: 100%;
+  flex-direction: column;
+}
+.artist-info h1 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: white;
+}
+.artist-info p {
+  color: white;
+}
+.artist-links {
+  margin-top: 30px;
+  width: 50px;
+  margin-right: 0px;
+  position: relative;
+}
+.artist-card .artist-links img {
+  height: 20px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+.artist-card .artist-links img:hover {
+  height: 20px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .artist-card {
+    height: 250px;
+    width: 300px;
+    border: none;
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.349);
+  }
+  .artist-card img {
+    height: 50px;
+    border-radius: 50%;
+  }
+  .artist-info {
+    width: 85%;
+    margin-top: 55px;
+    position: absolute;
+    margin-left: -15px;
+  }
+  .artist-info h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+  }
+  .artist-info p {
+    margin-top: 0px;
+    opacity: 0.8;
+  }
+  .artist-links {
+    width: 100%;
+    padding-left: 0px;
+    position: absolute;
+  }
+  .artist-links img {
+    padding: 0px;
+    margin-top: 180px;
+  }
+}

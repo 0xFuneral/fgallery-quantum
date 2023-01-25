@@ -1,0 +1,23 @@
+.gallery-page button {
+  position: absolute;
+  margin-left: 90vw;
+  margin-top: 75vh;
+  border: none;
+  background-color: black;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.gallery-page a {
+  color: white;
+  justify-self: center;
+  padding-left: -15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .gallery-page button {
+    margin-left: 75vw;
+    margin-top: 60vh;
+  }
+}
